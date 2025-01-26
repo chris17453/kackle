@@ -1,0 +1,9 @@
+
+This is the topic we want to diiscuss with these details:
+
+topic: {topic}
+description: {description}
+tags: {tags}
+date: {date}
+company: {company}
+key_details: {key_details}

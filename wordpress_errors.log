@@ -1,0 +1,137 @@
+2025-01-26 09:21:45,426 - kackle.wordpress_client - ERROR - API Error: {
+  "status_code": 401,
+  "operation": "upload_media",
+  "url": "https://watkinslabs.com/wp-json/wp/v2/media",
+  "response": {
+    "code": "invalid_username",
+    "message": "<strong>Error:</strong> Unknown username. Check again or try your email address.",
+    "data": {
+      "status": 401
+    }
+  },
+  "timestamp": "2025-01-26T09:21:45.426105"
+}
+2025-01-26 09:21:45,426 - kackle.wordpress_client - ERROR - Failed to upload media assets/articles/aiaugmented_business_risk_analysis_solutions/11a10c56b88941bebb2ff96fce63b37a.webp: API Error: <strong>Error:</strong> Unknown username. Check again or try your email address.
+2025-01-26 09:21:45,534 - kackle.wordpress_client - ERROR - API Error: {
+  "status_code": 401,
+  "operation": "get_tags",
+  "url": "https://watkinslabs.com/wp-json/wp/v2/tags?search=AI&per_page=100",
+  "response": {
+    "code": "invalid_username",
+    "message": "<strong>Error:</strong> Unknown username. Check again or try your email address.",
+    "data": {
+      "status": 401
+    }
+  },
+  "timestamp": "2025-01-26T09:21:45.534553"
+}
+2025-01-26 09:21:45,534 - kackle.wordpress_client - ERROR - Failed to create tag: {
+  "operation": "create_tag",
+  "name": "AI",
+  "error": "API Error: <strong>Error:</strong> Unknown username. Check again or try your email address.",
+  "timestamp": "2025-01-26T09:21:45.534789"
+}
+2025-01-26 09:21:45,649 - kackle.wordpress_client - ERROR - API Error: {
+  "status_code": 401,
+  "operation": "get_tags",
+  "url": "https://watkinslabs.com/wp-json/wp/v2/tags?search=Risk+Analysis&per_page=100",
+  "response": {
+    "code": "invalid_username",
+    "message": "<strong>Error:</strong> Unknown username. Check again or try your email address.",
+    "data": {
+      "status": 401
+    }
+  },
+  "timestamp": "2025-01-26T09:21:45.649249"
+}
+2025-01-26 09:21:45,649 - kackle.wordpress_client - ERROR - Failed to create tag: {
+  "operation": "create_tag",
+  "name": "Risk Analysis",
+  "error": "API Error: <strong>Error:</strong> Unknown username. Check again or try your email address.",
+  "timestamp": "2025-01-26T09:21:45.649552"
+}
+2025-01-26 09:21:45,761 - kackle.wordpress_client - ERROR - API Error: {
+  "status_code": 401,
+  "operation": "get_tags",
+  "url": "https://watkinslabs.com/wp-json/wp/v2/tags?search=Business+Technology&per_page=100",
+  "response": {
+    "code": "invalid_username",
+    "message": "<strong>Error:</strong> Unknown username. Check again or try your email address.",
+    "data": {
+      "status": 401
+    }
+  },
+  "timestamp": "2025-01-26T09:21:45.761654"
+}
+2025-01-26 09:21:45,761 - kackle.wordpress_client - ERROR - Failed to create tag: {
+  "operation": "create_tag",
+  "name": "Business Technology",
+  "error": "API Error: <strong>Error:</strong> Unknown username. Check again or try your email address.",
+  "timestamp": "2025-01-26T09:21:45.761835"
+}
+2025-01-26 09:21:45,873 - kackle.wordpress_client - ERROR - API Error: {
+  "status_code": 401,
+  "operation": "get_tags",
+  "url": "https://watkinslabs.com/wp-json/wp/v2/tags?search=Automation&per_page=100",
+  "response": {
+    "code": "invalid_username",
+    "message": "<strong>Error:</strong> Unknown username. Check again or try your email address.",
+    "data": {
+      "status": 401
+    }
+  },
+  "timestamp": "2025-01-26T09:21:45.873898"
+}
+2025-01-26 09:21:45,874 - kackle.wordpress_client - ERROR - Failed to create tag: {
+  "operation": "create_tag",
+  "name": "Automation",
+  "error": "API Error: <strong>Error:</strong> Unknown username. Check again or try your email address.",
+  "timestamp": "2025-01-26T09:21:45.874086"
+}
+2025-01-26 09:21:45,985 - kackle.wordpress_client - ERROR - API Error: {
+  "status_code": 401,
+  "operation": "get_categories",
+  "url": "https://watkinslabs.com/wp-json/wp/v2/categories?search=Tech+Blog&per_page=100",
+  "response": {
+    "code": "invalid_username",
+    "message": "<strong>Error:</strong> Unknown username. Check again or try your email address.",
+    "data": {
+      "status": 401
+    }
+  },
+  "timestamp": "2025-01-26T09:21:45.985538"
+}
+2025-01-26 09:21:45,985 - kackle.wordpress_client - ERROR - Failed to create category: {
+  "operation": "create_category",
+  "name": "Tech Blog",
+  "error": "API Error: <strong>Error:</strong> Unknown username. Check again or try your email address.",
+  "timestamp": "2025-01-26T09:21:45.985720"
+}
+2025-01-26 09:21:46,095 - kackle.wordpress_client - ERROR - API Error: {
+  "status_code": 401,
+  "operation": "create_post",
+  "url": "https://watkinslabs.com/wp-json/wp/v2/posts",
+  "response": {
+    "code": "invalid_username",
+    "message": "<strong>Error:</strong> Unknown username. Check again or try your email address.",
+    "data": {
+      "status": 401
+    }
+  },
+  "timestamp": "2025-01-26T09:21:46.095158"
+}
+2025-01-26 09:21:46,095 - kackle.wordpress_client - ERROR - Failed to create post: {
+  "operation": "create_post",
+  "title": "AI-Augmented Business Risk Analysis Solutions",
+  "tags": [
+    "AI",
+    "Risk Analysis",
+    "Business Technology",
+    "Automation"
+  ],
+  "categories": [
+    "Tech Blog"
+  ],
+  "error": "API Error: <strong>Error:</strong> Unknown username. Check again or try your email address.",
+  "timestamp": "2025-01-26T09:21:46.095412"
+}

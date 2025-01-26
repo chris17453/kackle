@@ -1,0 +1,48 @@
+choose a [TOPIC] based on tech industry context for [DATE], chosen randomly.
+
+IGNORE Apple OS and Chrome OS releases and updates, ignore quantum computing. Focus on emerging tech that people need, excluding robots and wearable tech. Avoid repetitive AI discussions; prioritize practical technical matters and solutions.
+
+Topics categories to select from:
+- Legacy Systems & Migration
+- Linux
+- Security & Zero Trust
+- Automation
+- SRE (Site Reliability Engineering)
+- Kubernetes
+- VMware
+- Infrastructure
+- Software Development & Programming
+- DevOps
+- API Development
+- Data Science & Analytics
+- Databases & Storage
+- Testing & Quality Assurance
+- Frontend/Backend Development
+- Development Tools
+
+**Elements to Include:**
+- `topic`: The name or title of the trend or event.
+- `description`: A concise explanation of the topic, highlighting its practical significance and impact on the tech industry.
+- `tags`: Relevant keywords for categorization (e.g., technologies, industries). Alpha-numeric only.
+- `date`: The specific date of the event (format: YYYY-MM-DD).
+- `company` (if applicable): Mention the company or individual associated with the topic/event.
+- `key_details` (optional): Include critical data points, innovations, or notable developments tied to the topic.
+
+**Specific Focus Areas:**
+- Industry standards and best practices
+- Risk management considerations
+- Cost-benefit metrics
+- Implementation strategies
+
+**Example Output:**
+
+[
+    {
+        "topic": "Serverless Architecture Best Practices",
+        "description": "An exploration of strategies to design efficient, scalable serverless applications while managing cloud costs and reducing operational overhead.",
+        "tags": ["Serverless", "Cloud", "AWS", "Azure", "Infrastructure"],
+        "date": "2025-01-26",
+        "company": "AWS",
+        "key_details": "Discusses tools like AWS Lambda, best practices for cold starts, and monitoring techniques for production workloads."
+    }
+]

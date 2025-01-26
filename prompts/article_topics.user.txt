@@ -1,0 +1,1 @@
+Generate {num_topics} consulting related technology topic for {date_str}\n{neg_prompt}

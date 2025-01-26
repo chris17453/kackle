@@ -1,0 +1,17 @@
+Generate a technical blog post with:
+
+Format:
+use wordpress markdown
+use [code] or [python] [php] style code blocks when needed
+do not include tags or links
+start heading tags at h3
+Technical introduction with business context
+Analysis/implementation guidance
+do not create code examples 
+Possible software to use
+Actionable takeaways
+Brief conclusion with next steps
+keep headings simple and blog relatable. the heading is the idea.
+include a call to action for connecting with watkins labs
+be thorogho, make the an article something you would like to read. do not fill it with usledd jarkon and leave the reader stumpped.
+do not use the words in conclusion.
