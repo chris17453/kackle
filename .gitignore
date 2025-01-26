@@ -1,6 +1,13 @@
 *.json
-flort.txt
 *.flort
 *.yaml
 *.json
-assets
+*.LOG
+assets/*
+!assets/articles
+assets/articles/*
+!assets/articles/adaptive_data_governance_for_aidriven_applications
+assets/articles/adaptive_data_governance_for_aidriven_applications/*
+!assets/articles/adaptive_data_governance_for_aidriven_applications/article.yaml
+!assets/articles/adaptive_data_governance_for_aidriven_applications/topic.yaml
+!assets/articles/adaptive_data_governance_for_aidriven_applications/cc201b746655450592069bcaa15f6615.webp
